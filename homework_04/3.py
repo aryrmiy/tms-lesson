@@ -1,5 +1,14 @@
-x = int(input('Write summ'))
-y = int(input('Write years'))
-z = 0.1
-m = x * (1 + z) ** y
-print(m)
+flag = False
+for num in range(0, 101, 1):
+    print(num)
+
+    while True:
+        answer = input('Should we break?')
+        if answer == 'yes':
+            flag = True
+            break
+        elif answer == 'no':
+            break
+        print("Don't understand you!!!")
+    if flag == True:
+        break

@@ -1,2 +1,7 @@
-number = int(input('Write number'))
-print(number % 2 == 0)
+for num in range(0, 101, 1):
+    print(num)
+    answer = input('Should we break?')
+    if answer == 'yes':
+        break
+    else:
+        continue

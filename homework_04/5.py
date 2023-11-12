@@ -1,4 +1,6 @@
-dict_a = {'january': 31, 'february': 28, 'march': 31, 'april': 30, 'may': 31, 'june': 30, 'july': 31, 'august': 31, 'september': 30, 'october': 31, 'november': 30, 'december': 31}
-n = (input('Write month'))
-dict_a.get(n)
-print(dict_a.get(n))
+number = int(input('write number '))
+summ = 0
+while (number != 0):
+    summ = summ + number % 10
+    number = number // 10
+print('', summ)
